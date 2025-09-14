@@ -143,7 +143,7 @@ img {
 .card__image {
   width: 100px;
   height: 100px;
-  position: relative;
+  position: centre;
   margin: 0 auto 1rem;
 }
 
