@@ -176,9 +176,9 @@ img {
 }
 
 .card__button {
-  display: inline-flex;
-  align-items: center;
-  column-gap: .5rem;
+  display:inline-block;
+  align-items: c;
+  column-gap: 2rem;
   color: var(--first-color);
   font-weight: 500;
 }
