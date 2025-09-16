@@ -47,7 +47,7 @@ img {
 
 /*=============== CARD ===============*/
 .container {
-  height: 100vh;
+  height: 96vh;
   display: grid;
   place-items: center;
   margin-inline: 1.5rem;
@@ -199,6 +199,33 @@ img {
   pointer-events: initial;
   bottom: 4rem;
 }
+footer {
+    padding: 0; 
+    margin: 0; 
+    background-color:rgb(99, 89, 89);
+    box-sizing: border-box;
+    text-align: center;
+}
+.site-footer{
+  margin-top: 0;
+}
+
+.footerBottom{
+    width: 100%; 
+    padding: 0; 
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: none;
+  letter-spacing: 1px;
+  color: rgb(30, 255, 0);
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
@@ -206,5 +233,13 @@ img {
   .card__content {
     width: 380px;
     padding-inline: 2rem;
+  }
+    .footerBottom ul{
+    flex-direction: column;
+  }
+  .footerBottom ul li{
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
 }
